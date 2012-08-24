@@ -58,7 +58,7 @@
 
 - (void)setDelegate:(id<CPParserDelegate>)aDelegate
 {
-    if (delegate != aDelegate) 
+    if (delegate != aDelegate)
     {
         delegate = aDelegate;
         

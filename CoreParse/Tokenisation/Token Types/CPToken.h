@@ -43,3 +43,9 @@
 @property (readwrite, assign) NSUInteger length;
 
 @end
+
+@interface NSObject (CPIsToken)
+
+- (BOOL)isToken;
+
+@end
